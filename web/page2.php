@@ -1,7 +1,11 @@
 <?php
 
 //Retrieve post variables.
-$postname = $_Post['name'];
+$postfname = $_Post['First_name'];
+$postlname = $_Post['Last_name'];
+$postemail = $_Post['Email'];
+$postphone = $_Post['Phone'];
+$postzip = $_Post['Zip'];
 
 //MC Auth Call via Postman
 $curl = curl_init();
@@ -13,7 +17,7 @@ curl_setopt_array($curl, array(
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{\n    \"clientId\":\"73q9wxparwhgk5qm7zfj3pfa\",\n    \"clientSecret\":\"sJSgHDS7F3vE8TKYGCskY7MC\"\n}",
+  CURLOPT_POSTFIELDS => "{\n    \"clientId\":\"gq06990hdl7ojq40y79njfuw\",\n    \"clientSecret\":\"UfRqKvtyJKvg6adGzGRRPbvc\"\n}",
   CURLOPT_HTTPHEADER => array(
     "Cache-Control: no-cache",
     "Content-Type: application/json"
