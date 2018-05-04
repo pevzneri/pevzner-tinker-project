@@ -14,66 +14,72 @@
 		<title>Admin</title>
 	</head>
 	<body>
-		<div class="container">
-			<div class="row main">
-				<div class="main-login main-center">
-				<h5>Sign up once and watch any of our free demos.</h5>
-					<form class="" method="post" action="/page2.php">					
-						<div class="form-group">
-							<label for="name" class="cols-sm-2 control-label">Your Name</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
-								</div>
-							</div>
-						</div>
 
-						<div class="form-group">
-							<label for="email" class="cols-sm-2 control-label">Your Email</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
-								</div>
-							</div>
-						</div>
+  <title>Tinker While You Work</title>
 
-						<div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Username</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
-								</div>
-							</div>
-						</div>
 
-						<div class="form-group">
-							<label for="password" class="cols-sm-2 control-label">Password</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
-								</div>
-							</div>
-						</div>
+        
 
-						<div class="form-group">
-							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
-								</div>
-							</div>
-						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
+                <div class="col-lg-4">
+                    <div class=div style="text-align:center"><h1>Ilya Tinker Project</h1>
+                    <div class=div style="text-align:center"><p>Have a tinker at my toil.</p>
+                    <p>
+                        <form class="form-horizontal" role="form" method="post" action="action.php">
+                          <div class="form-group">
+                            <div class=div style="text-align:center">
+                            <label class="col-lg-4 control-label" for="First_name"></label>
+                            <div class="col-lg-14">
+                              <input class="form-control" id="fname" name="First_name" placeholder="First Name" type="text" />
+                            </div>
+                         
+                            <div class=div style="text-align:center">
+                            <label class="col-lg-4 control-label" for="Last_name"></label>
+                            <div class="col-lg-14">
+                              <input class="form-control" id="lname" name="Last_name" placeholder="Last Name" type="text" />
+                            </div>
+                          </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                           <div class=div style="text-align:center">
+                            <label class="col-lg-4 control-label" for="inputEmail1"></label>
+                            <div class="col-lg-14">
+                              <input class="form-control" id="inputEmail1" name="Email" placeholder="Email" type="email" />
+                            </div>
+                             
+                            <div class=div style="text-align:center">
+                            <label class="col-lg-4 control-label" for="Phone"></label>
+                            <div class="col-lg-14">
+                              <input class="form-control" id="Phone" name="Phone" placeholder="Phone" type="text" />
+                            </div>
+                          </div>
+
+                            <div class=div style="text-align:center">
+                            <div class="form-group">
+                            <label class="col-lg-4 control-label" for="inputZip"></label>
+                            <div class="col-lg-14">
+                              <input class="form-control" id="inputZip" name="Zip" placeholder="Zip" type="Zip" />
+                            </div>
+
+                          </div>
+
+                          <div class="form-group">
+                            <div class="col-lg-10">
+                              <input type="submit" value="Submit" />
+                            </div>
+                          </div>
+
+                       </form>
+
+                             
+                    </p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <p>Tinkering away since 2015</p>
+                </div>
+
+            </div>
+        
+        </div>
+
 	</body>
 </html>
