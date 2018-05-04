@@ -19,7 +19,7 @@
                     <div class=div style="text-align:center"><h1>Ilya Tinker Project</h1>
                     <div class=div style="text-align:center"><p>Have a tinker at my toil.</p>
                     <p>
-                        <form class="form-horizontal" role="form" method="post" action="page2.php">
+                        <form class="form-horizontal" role="form" method="post" action="/page2.php">
                           <div class="form-group">
                             <div class=div style="text-align:center">
                             <label class="col-lg-4 control-label" for="First_name"></label>
