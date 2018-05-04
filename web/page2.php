@@ -59,7 +59,7 @@ if ($err) {
 			<div class="row main">
 				<div class="main-login main-center">
 				<h5>Sign up once and watch any of our free demos.</h5>
-				<h3>Phone: <?php echo $postphone ?>
+				<h3>Email: <?php echo $postemail ?>
 				</div>
 			</div>
 		</div>
